@@ -3,13 +3,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: aliceblue;
-}
-
-a {
-    font-size: 24px;
-    color: aliceblue;
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
 }
 
 body {
@@ -29,12 +23,17 @@ h3 {
     color: aliceblue;
 }
 
+a,
 span,
 p,
 figcaption {
     color: aliceblue;
     line-height: 30px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: underline;
 }
 
 img,
@@ -140,5 +139,20 @@ a.active {
 @media (prefers-reduced-motion) {
     .gif {
         display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .pet-photo,
+    .food-image,
+    .travel,
+    .travel-figure-4,
+    .travel-figure-5 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        align-items: center;
+        justify-content: space-around;
+        justify-items: center;
     }
 }
