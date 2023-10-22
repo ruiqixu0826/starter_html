@@ -154,6 +154,7 @@ a.active {
     .travel-figure-4,
     .travel-figure-5 {
         display: grid;
+        max-width: 100%;
         grid-template-columns: 1fr 1fr;
         grid-gap: 15px;
         align-items: center;
