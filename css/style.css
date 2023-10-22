@@ -136,3 +136,9 @@ a.active {
     justify-content: space-around;
     justify-items: center;
 }
+
+@media (prefers-reduced-motion) {
+    .gif {
+        display: none;
+    }
+}
