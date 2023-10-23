@@ -1,8 +1,8 @@
 h1 {
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Verdana', 'Arial', sans-serif;
     text-align: center;
-    color: aliceblue;
+    color: white;
     padding: 10px;
     padding-bottom: 30px;
 }
@@ -14,15 +14,15 @@ body {
 
 h2 {
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    color: aliceblue;
+    font-family: 'Verdana', 'Arial', sans-serif;
+    color: white;
     padding: 10px;
 }
 
 h3 {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    color: aliceblue;
+    font-family: 'Verdana', 'Arial', sans-serif;
+    color: white;
     padding: 10px;
 }
 
@@ -30,9 +30,9 @@ a,
 span,
 p,
 figcaption {
-    color: aliceblue;
+    color: white;
     line-height: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Verdana', 'Arial', sans-serif;
     padding: 10px;
 }
 
@@ -43,10 +43,11 @@ a {
 img,
 video {
     display: block;
-    border: solid 5px aliceblue;
+    border: solid 5px white;
+    width: 90%;
     padding: 10px;
     margin: 20px;
-    border-top-right-radius: 30px;
+    border-radius: 30px;
 }
 
 ul,
@@ -54,8 +55,8 @@ ol {
     display: inline-block;
     line-height: 30px;
     margin-left: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    color: aliceblue;
+    font-family: 'Verdana', 'Arial', sans-serif;
+    color: white;
     padding: 10px;
 }
 
@@ -92,7 +93,7 @@ nav a:focus {
 a.active {
     font-weight: bold;
     padding: 5px;
-    border: solid 2px aliceblue;
+    border: solid 2px white;
     border-radius: 5px;
 }
 
